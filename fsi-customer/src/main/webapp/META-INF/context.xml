@@ -2,7 +2,7 @@
 <Context path="/fsi-customer" docBase="./fsi-customer" debug="1" reloadable="false">
 	
 	<Environment name="logName" value="fsi-customer" type="java.lang.String" override="false" />
-	<Environment name="logFilePrefix" value="/home/fedez/Documenti/opt/Develop/workspace/entando-examples/fsi-onboarding-entando/fsi-customer/target/log_fsi-customer" type="java.lang.String" override="false" />
+	<Environment name="logFilePrefix" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-customer/target/log_fsi-customer" type="java.lang.String" override="false" />
 	<Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
 	<Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
 	<Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
@@ -13,10 +13,10 @@
 	<Environment name="resourceRootURL" value="/fsi-customer/resources/" type="java.lang.String" override="false" />
 	<Environment name="protectedResourceRootURL" value="/fsi-customer/protected/" type="java.lang.String" override="false" />
 	
-	<Environment name="resourceDiskRootFolder" value="/home/fedez/Documenti/opt/Develop/workspace/entando-examples/fsi-onboarding-entando/fsi-customer/src/main/webapp/resources" type="java.lang.String" override="false" />
-	<Environment name="protectedResourceDiskRootFolder" value="/home/fedez/Documenti/opt/Develop/workspace/entando-examples/fsi-onboarding-entando/fsi-customer/src/main/webapp/protected" type="java.lang.String" override="false" />
+	<Environment name="resourceDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-customer/src/main/webapp/resources" type="java.lang.String" override="false" />
+	<Environment name="protectedResourceDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-customer/src/main/webapp/protected" type="java.lang.String" override="false" />
 	
-	<Environment name="indexDiskRootFolder" value="/home/fedez/Documenti/opt/Develop/workspace/entando-examples/fsi-onboarding-entando/fsi-customer/target/temp/indexdir" type="java.lang.String" override="false" />
+	<Environment name="indexDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-customer/target/temp/indexdir" type="java.lang.String" override="false" />
 	
 	<Resource name="jdbc/portDataSource" auth="Container" 
 		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver" 

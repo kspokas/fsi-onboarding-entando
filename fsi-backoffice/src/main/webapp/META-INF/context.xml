@@ -2,7 +2,7 @@
 <Context path="/fsi-backoffice" docBase="./fsi-backoffice" debug="1" reloadable="false">
 	
 	<Environment name="logName" value="fsi-backoffice" type="java.lang.String" override="false" />
-	<Environment name="logFilePrefix" value="D:\\gitprojects\\fsi-backoffice\\target\\log_fsi-backoffice" type="java.lang.String" override="false" />
+	<Environment name="logFilePrefix" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-backoffice/target/log_fsi-backoffice" type="java.lang.String" override="false" />
 	<Environment name="logLevel" value="INFO" type="java.lang.String" override="false" />
 	<Environment name="logFileSize" value="200000" type="java.lang.String" override="false" />
 	<Environment name="logFilesCount" value="10" type="java.lang.String" override="false" />
@@ -13,10 +13,10 @@
 	<Environment name="resourceRootURL" value="/fsi-backoffice/resources/" type="java.lang.String" override="false" />
 	<Environment name="protectedResourceRootURL" value="/fsi-backoffice/protected/" type="java.lang.String" override="false" />
 	
-	<Environment name="resourceDiskRootFolder" value="D:\\gitprojects\\fsi-backoffice\\src\\main\\webapp\\resources" type="java.lang.String" override="false" />
-	<Environment name="protectedResourceDiskRootFolder" value="D:\\gitprojects\\fsi-backoffice\\src\\main\\webapp\\protected" type="java.lang.String" override="false" />
+	<Environment name="resourceDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-backoffice/src/main/webapp/resources" type="java.lang.String" override="false" />
+	<Environment name="protectedResourceDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-backoffice/src/main/webapp/protected" type="java.lang.String" override="false" />
 	
-	<Environment name="indexDiskRootFolder" value="D:\\gitprojects\\fsi-backoffice\\target\\temp\\indexdir" type="java.lang.String" override="false" />
+	<Environment name="indexDiskRootFolder" value="/Users/kspokas/projects/entando-demos/fsi-onboarding/code/fsi-onboarding-entando/fsi-backoffice/target/temp/indexdir" type="java.lang.String" override="false" />
 	
 	<Resource name="jdbc/portDataSource" auth="Container" 
 		type="javax.sql.DataSource" driverClassName="org.postgresql.Driver" 
